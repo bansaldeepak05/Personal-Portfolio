@@ -1,0 +1,123 @@
+body{
+    background-image: url("bg1.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-around
+}
+.navbar{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    align-items:center;
+    padding: 0px;
+    background-color:#DAA06D;
+    color:white;
+    padding:10px 10px 10px 10px;
+    text-decoration-color: aliceblue;
+    font-size:190%;
+    position:fixed;
+    bottom: 10%;
+    left:0%;
+    right:0%;
+}
+img{
+    height: 700px;
+}
+.name img{
+    
+    height: 200px;
+
+}
+.name{
+    align-items: center;
+    display:flex;
+    flex-flow:row wrap;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.socials{
+    position:fixed;
+    top:5%;
+    align-items: center;
+    align-content: center;
+    background-color: #DAA06D;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    left:50%;
+    transform: translate(-50%);
+    padding:2px;
+}
+.socials img{
+    height:75px;
+}
+
+.container a:hover{
+    color:red;
+}
+.main h2 {
+    color:red;
+}
+
+.main li {
+    color:green;
+}
+
+ol li {
+    color:blue;
+}
+
+li {
+    color:yellow;
+}
+
+h2 {
+    color:purple;
+}
+
+.about{
+    column-count: 2;
+    margin:15% 12% 15% 12%;
+    align-items:space-around;
+    background-color: rgb(151, 66, 27);
+    color:aliceblue;
+    padding: 50px 30px 50px 30px;
+    font-family: Verdana;
+    
+}
+.about h3{
+    text-align: center;
+}
+
+
+
+.list{
+    margin: 10% 20% 5% 20%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+    gap:10px;
+    background-color: antiquewhite;
+    
+}
+@media screen and (max-width:1000px) {
+    .list{
+        flex-direction: column;
+        margin: 10% 30% 0% 30%;
+        align-content:center;
+    }
+    
+}
+
+.list img{
+    height:250px;
+}
